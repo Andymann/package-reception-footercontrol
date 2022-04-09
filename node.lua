@@ -756,7 +756,7 @@ local function playlist()
     end
 
     local function tile_fullscreen(s, e, now)
-        return 0, 0, WIDTH, HEIGHT-50
+        return 0, 0, WIDTH, HEIGHT-0
     end
 
     local function tile_top(s, e, now)
