@@ -314,6 +314,19 @@
             @assetSelected='onAssetSelected'>
           </asset-browser>
         </div>
+
+		<div class='col-xs-6'>
+			<div class="checkbox">
+			  <label>
+				<input
+				  type="checkbox"
+				  :checked="page.config.rawvideo"
+				  @change="onUpdateRawVideo">
+				  Raw Video
+			  </label>
+			</div>
+		  </div>
+
         <div class='col-xs-12'>
           <br/>
           <asset-view
