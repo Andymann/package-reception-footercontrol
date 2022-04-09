@@ -1,8 +1,8 @@
 {
-    "name": "Reception Screen",
-    "author": "Florian Wesch <fw@info-beamer.com>",
+    "name": "Reception w/ footercontrol",
+    "author": "Florian Wesch, Andy Fischer <info@Andyland.info>",
     "desc": "Shows textual/image and video information for a reception-style information screen.",
-    "repository": "https://github.com/info-beamer/package-reception",
+    "repository": "https://github.com/Andymann/package-reception-footercontrol",
     "version": "0.4",
     "platforms": ["pi/epoch-1", "pi/epoch-2"],
     "nesting": {
