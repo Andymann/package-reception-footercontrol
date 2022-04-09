@@ -838,7 +838,7 @@ local function playlist()
             return Video{
                 fade_time = 0,
                 asset_name = media.asset_name,
-                raw = page.config.rawvideo,
+                raw = pages.config.rawvideo,
 				
             }
         end
